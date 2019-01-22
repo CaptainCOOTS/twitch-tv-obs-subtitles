@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     margin: 0;
     border: 0;
-    background: rgba(0,0,0,0);
+    background: rgba(1,1,1,1);
     overflow: hidden;
 }
 
@@ -13,7 +13,7 @@ div::-webkit-scrollbar {
 }
 
 div#subtitle {
-    position: absolute;
+    position: center;
     top: 0px;
     left: 0px;
     background: transparent;
@@ -23,7 +23,7 @@ div#subtitle {
     font-size: calc( 3vh + 3vw );
     font-weight: 200;
     line-height: calc( 4vh + 3vw );
-    color: #fefef2;
+    color: #000000;
     text-shadow: 3px 1px 4px #222;
     display: flex;
     flex-direction: column;
